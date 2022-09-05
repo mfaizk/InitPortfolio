@@ -1,0 +1,114 @@
+/* background: linear-gradient(45deg, #94d5db, #139ae9); */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #111;
+}
+
+.nav-list {
+  display: flex;
+  background: linear-gradient(45deg, #253898, #5737d6);
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  height: 50px;
+}
+
+.nav-list-item {
+  color: #fff;
+  /* background-color: blue; */
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nav-list-item:hover {
+  text-decoration: underline;
+}
+.nav-list a {
+  text-decoration: none;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  /* background: linear-gradient(45deg, #94d5db, #139ae9); */
+
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  /* background-color: blue; */
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 50px;
+  box-shadow: none;
+  transition: box-shadow 100ms 100ms ease-in-out;
+  padding: 25px;
+}
+.card:hover {
+  box-shadow: 1px 1px 5px #758283;
+}
+.card-img img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  width: 20rem;
+}
+
+.card-title {
+  text-align: center;
+  margin-top: 10px;
+  color: #cad5e2;
+}
+.card-button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.source-code {
+  /* background-color: orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 3px;
+  color: #fff;
+  background: #139ae9;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 100ms 100ms ease-in-out;
+}
+.source-code:hover {
+  background: #2827cc;
+}
+
+.deploy {
+  /* background-color: orange; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  margin-bottom: 3px;
+  color: #fff;
+  background: #3dbe29;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 100ms 100ms ease-in-out;
+}
+
+.deploy:hover {
+  background: #00d84a;
+}
